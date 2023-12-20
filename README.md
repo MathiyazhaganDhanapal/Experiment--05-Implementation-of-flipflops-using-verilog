@@ -1,9 +1,12 @@
-# Experiment--05-Implementation-of-flipflops-using-verilog
+### NAME:D.MATHIYAZHAGAN.
+### REG:23013685
+
+### Experiment--05-Implementation-of-flipflops-using-verilog
 ### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
-SR Flip-Flop
+### SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -102,39 +105,64 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+1.Type the program in quartus software.
+2.Complete and run the program.
+3.Generate the RTL schematic and save the logic diagram.
+4.Create nodes for inputs and outputs to generate the timing diagram.
+5.For different input combinations generate the timing diagram.
+
+### PROGRAM:
+
+### SR Flip-Flop:
+![Screenshot 2023-12-18 161332](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/72c40023-9051-4db4-b49c-85820e9076a4)
 
 
+### D Flip-Flop:
 
-### PROGRAM 
-/*
+
+### JK Flip-Flop:
+![Screenshot 2023-12-20 220714](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/32c6c234-d470-49dd-8d32-e1ef78c9302a)
+
+
+### T Flip-Flop:
+![Screenshot 2023-12-20 221733](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/2507457b-7157-4def-9a0d-0a9fe20e0a01)
+
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: 
-RegisterNumber:  
-*/
+
+### RTL LOGIC FOR FLIPFLOPS:
+
+### SR Flip-Flop:
+![Screenshot 2023-12-18 161313](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/a0490685-2b49-47c0-8448-1a4e8356d83d)
 
 
+### D Flip-Flop:
 
 
+### JK Flip-Flop:
+![Screenshot 2023-12-20 220551](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/c176a2f0-d5a1-4dae-95a1-0044573b5f2d)
 
 
-### RTL LOGIC FOR FLIPFLOPS 
+### T Flip-Flop:
+
+![Screenshot 2023-12-20 221713](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/1331abe4-7195-42e4-94da-37473eb1abc3)
 
 
+### TIMING DIGRAMS FOR FLIP FLOPS:
+
+### SR Flip-Flop:
+![Screenshot 2023-12-20 220630](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/05e9559e-c761-4005-ad5c-74c1bbc96d5a)
 
 
+### D Flip-Flop:
 
 
+### JK Flip-Flop:
+![Screenshot 2023-12-20 220653](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d0cd2410-2d64-46c6-b28d-db99ee2e3c59)
 
 
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
+### T Flip-Flop:
 
 
-
-
-
-
-
-### RESULTS 
+### RESULTS:
