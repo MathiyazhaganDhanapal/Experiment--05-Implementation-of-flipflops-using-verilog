@@ -114,19 +114,66 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ### PROGRAM:
 
 ### SR Flip-Flop:
-![Screenshot 2023-12-18 161332](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/72c40023-9051-4db4-b49c-85820e9076a4)
-
+~~~~
+module flipflops(S,R,clk,Q,Qbar);
+input S,R,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=S|((~R)&Q);
+Qbar=R|((~S)&(Qbar));
+end
+endmodule
+~~~~
 
 ### D Flip-Flop:
+~~~~
+module exp_5d(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin 
+q<=d;
+qbar<=~q;
+end 
+endmodule
+~~~~
 
 
 ### JK Flip-Flop:
-![Screenshot 2023-12-20 220714](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/32c6c234-d470-49dd-8d32-e1ef78c9302a)
+~~~~
+module flipflops(J,K,clk,Q,Qbar);
+input J,K,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
+end
+endmodule
+~~~~
 
 
 ### T Flip-Flop:
-![Screenshot 2023-12-20 221733](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/2507457b-7157-4def-9a0d-0a9fe20e0a01)
-
+~~~~
+module exp_5c(clk,T,q,qbar);
+input clk,T;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=(T&~q)|(~T&q);
+qbar<=~q;
+end 
+endmodule
+~~~~
 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: 
@@ -138,6 +185,7 @@ Developed by:
 
 
 ### D Flip-Flop:
+![Screenshot 2023-12-21 180237](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/27a88c89-11fd-4505-869d-48050b6ef1b0)
 
 
 ### JK Flip-Flop:
@@ -157,12 +205,14 @@ Developed by:
 
 ### D Flip-Flop:
 
-
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220653](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d0cd2410-2d64-46c6-b28d-db99ee2e3c59)
 
 
 ### T Flip-Flop:
+![Screenshot 2023-12-21 180433](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/e3ec1f11-5c74-4633-9ad6-77787c34d250)
 
 
 ### RESULTS:
+By this we have verified the truth table of JK flip flop, SR flip flop, D flip flop and T flip flop using
+verilog.
