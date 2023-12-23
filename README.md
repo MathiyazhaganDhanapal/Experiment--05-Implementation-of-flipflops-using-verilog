@@ -204,6 +204,7 @@ Developed by:
 
 
 ### D Flip-Flop:
+![Screenshot 2023-12-23 073216](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/1b29a9f3-ce0d-4163-aab9-7cd5fac11ae4)
 
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220653](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d0cd2410-2d64-46c6-b28d-db99ee2e3c59)
