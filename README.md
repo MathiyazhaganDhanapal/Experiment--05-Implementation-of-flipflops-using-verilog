@@ -167,14 +167,11 @@ Developed by:
 ### SR Flip-Flop:
 ![Screenshot 2023-12-18 161313](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/a0490685-2b49-47c0-8448-1a4e8356d83d)
 
-
 ### D Flip-Flop:
 ![Screenshot 2023-12-21 180237](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/27a88c89-11fd-4505-869d-48050b6ef1b0)
 
-
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220551](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/c176a2f0-d5a1-4dae-95a1-0044573b5f2d)
-
 
 ### T Flip-Flop:
 
@@ -193,10 +190,23 @@ Developed by:
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220653](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d0cd2410-2d64-46c6-b28d-db99ee2e3c59)
 
-
 ### T Flip-Flop:
 ![Screenshot 2023-12-21 180433](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/e3ec1f11-5c74-4633-9ad6-77787c34d250)
 
+### Truth table:
+
+### SR Flip-Flop:
+![Screenshot 2024-01-01 221406](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d97f00cf-c0c3-464b-bb8e-ddb85c232ec6)
+
+### D Flip-Flop:
+![Screenshot 2024-01-01 221457](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/ab8cfd71-2275-4b31-afce-5c13dda2367a)
+
+### JK Flip-Flop:
+
+![Screenshot 2024-01-01 221431](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/44fde24d-f4a6-445d-9041-6d2f60023d40)
+
+### T Flip-Flop:
+![Screenshot 2024-01-01 221518](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/2d3d764b-b511-4003-8655-a5cc09437078)
 
 ### RESULTS:
 By this we have verified the truth table of JK flip flop, SR flip flop, D flip flop and T flip flop using
