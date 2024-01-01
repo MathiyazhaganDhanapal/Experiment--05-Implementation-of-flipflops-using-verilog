@@ -168,7 +168,7 @@ Developed by:
 ![Screenshot 2023-12-18 161313](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/a0490685-2b49-47c0-8448-1a4e8356d83d)
 
 ### D Flip-Flop:
-![Screenshot 2023-12-21 180237](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/27a88c89-11fd-4505-869d-48050b6ef1b0)
+![Screenshot 2024-01-01 224437](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/2c10ff3f-384f-4f55-b1e4-89c4d56ae678)
 
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220551](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/c176a2f0-d5a1-4dae-95a1-0044573b5f2d)
@@ -185,7 +185,7 @@ Developed by:
 
 
 ### D Flip-Flop:
-![Screenshot 2023-12-23 073216](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/1b29a9f3-ce0d-4163-aab9-7cd5fac11ae4)
+![Screenshot 2024-01-01 225109](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/8892a0dc-db67-4cb3-9540-f2598361b98d)
 
 ### JK Flip-Flop:
 ![Screenshot 2023-12-20 220653](https://github.com/MathiyazhaganDhanapal/Experiment--05-Implementation-of-flipflops-using-verilog/assets/145981115/d0cd2410-2d64-46c6-b28d-db99ee2e3c59)
